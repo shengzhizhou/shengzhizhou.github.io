@@ -78,12 +78,27 @@
 
 
 
-
 /* 02. Intro
  * =================================================================== */
 
  .section-image {
  	background: #151515 url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=799&q=80) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display:table;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .section-ima {
+    background: #151515 url(https://www.primotoys.com/wp-content/uploads/2017/06/iStock-476209538-1024x683.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -258,6 +273,14 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#sk {
+    background: #151515 url(https://www.primotoys.com/wp-content/uploads/2017/06/iStock-476209538-1024x683.jpg) no-repeat center center;
+    height: auto;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 /* 05. Footer
@@ -397,6 +420,12 @@ footer p {
         background-position: top center;
 
     }
+    #sk {
+        background: #151515 url(https://www.primotoys.com/wp-content/uploads/2017/06/iStock-476209538-1024x683.jpg) no-repeat center center;
+        background-position: top center;
+
+    }
+
 }
 
 @media (max-width: 991px) {
