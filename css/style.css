@@ -93,6 +93,10 @@
     text-align: center;
     color: #fff;
     display:table;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
  }
 
  .img-overlay {
@@ -249,6 +253,10 @@ section {
 #skills {
     background: #151515 url(https://images.unsplash.com/photo-1456983933114-c22026990f4b?dpr=2&auto=format&crop=entropy&fit=crop&w=1280&h=720&q=80) no-repeat center center;
     height: auto;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
